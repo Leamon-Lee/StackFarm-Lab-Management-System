@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Noto_Sans_SC } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 import "./globals.css";
 import { AuthProvider } from "@/lib/auth-context";
@@ -15,6 +15,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// Noto Sans SC is the Google-hosted version of Source Han Sans for Simplified Chinese.
+const sourceHanSans = Noto_Sans_SC({
+  variable: "--font-source-han-sans",
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+  fallback: ["Source Han Sans SC", "Microsoft YaHei", "sans-serif"],
+});
+
 export const metadata: Metadata = {
   title: "AssocHub",
   description: "AI-Powered Association Management",
@@ -28,7 +36,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${sourceHanSans.variable} ${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col">
