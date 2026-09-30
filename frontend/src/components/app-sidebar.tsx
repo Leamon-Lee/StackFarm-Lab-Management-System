@@ -109,8 +109,8 @@ export function AppSidebar() {
       <SidebarHeader>
         <div className="flex items-center gap-3 px-3 py-3 border-b border-slate-100">
           <Logo size="sm" />
-          <span className="group-data-[collapsible=icon]:hidden text-lg font-bold tracking-tight" style={{ color: '#0f172a' }}>
-            Assoc<span style={{ color: '#0d9488' }}>Hub</span>
+          <span className="group-data-[collapsible=icon]:hidden text-lg font-bold tracking-tight" style={{ color: '#1F2937' }}>
+            Assoc<span style={{ color: '#0C74B9' }}>Hub</span>
           </span>
         </div>
       </SidebarHeader>
@@ -136,12 +136,12 @@ export function AppSidebar() {
                         className={cn(
                           "rounded-xl transition-all duration-200 mx-1.5 mb-0.5",
                           isActive
-                            ? "bg-gradient-to-r from-teal-50 to-teal-50/50 text-[#0d9488] font-semibold relative"
+                            ? "bg-gradient-to-r from-teal-50 to-teal-50/50 text-[#0C74B9] font-semibold relative"
                             : "hover:bg-slate-50 text-slate-600 hover:text-slate-900"
                         )}
                       >
-                        {isActive && <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[3px] h-[60%] rounded-r-full" style={{ background: 'linear-gradient(180deg, #0d9488, #14b8a6)', boxShadow: '0 0 8px rgba(13,148,136,0.4)' }} />}
-                        <item.icon className={cn("h-4 w-4", isActive ? "text-[#0d9488]" : "text-slate-400")} />
+                        {isActive && <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[3px] h-[60%] rounded-r-full" style={{ background: 'linear-gradient(180deg, #0C74B9, #4A9BD0)', boxShadow: '0 0 8px rgba(12,116,185,0.4)' }} />}
+                        <item.icon className={cn("h-4 w-4", isActive ? "text-[#0C74B9]" : "text-slate-400")} />
                         <span>{item.title}</span>
                       </SidebarMenuButton>
                     </SidebarMenuItem>
@@ -171,12 +171,12 @@ export function AppSidebar() {
                         className={cn(
                           "rounded-xl transition-all duration-200 mx-1.5 mb-0.5",
                           isActive
-                            ? "bg-gradient-to-r from-teal-50 to-teal-50/50 text-[#0d9488] font-semibold relative"
+                            ? "bg-gradient-to-r from-teal-50 to-teal-50/50 text-[#0C74B9] font-semibold relative"
                             : "hover:bg-slate-50 text-slate-600 hover:text-slate-900"
                         )}
                       >
-                        {isActive && <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[3px] h-[60%] rounded-r-full" style={{ background: 'linear-gradient(180deg, #0d9488, #14b8a6)', boxShadow: '0 0 8px rgba(13,148,136,0.4)' }} />}
-                        <item.icon className={cn("h-4 w-4", isActive ? "text-[#0d9488]" : "text-slate-400")} />
+                        {isActive && <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[3px] h-[60%] rounded-r-full" style={{ background: 'linear-gradient(180deg, #0C74B9, #4A9BD0)', boxShadow: '0 0 8px rgba(12,116,185,0.4)' }} />}
+                        <item.icon className={cn("h-4 w-4", isActive ? "text-[#0C74B9]" : "text-slate-400")} />
                         <span>{item.title}</span>
                       </SidebarMenuButton>
                     </SidebarMenuItem>
@@ -207,15 +207,15 @@ export function AppSidebar() {
                         className={cn(
                           "rounded-xl transition-all duration-200 mx-1.5 mb-0.5",
                           isActive
-                            ? "bg-gradient-to-r from-teal-50 to-teal-50/50 text-[#0d9488] font-semibold relative"
+                            ? "bg-gradient-to-r from-teal-50 to-teal-50/50 text-[#0C74B9] font-semibold relative"
                             : "hover:bg-slate-50 text-slate-600 hover:text-slate-900"
                         )}
                       >
-                        {isActive && <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[3px] h-[60%] rounded-r-full" style={{ background: 'linear-gradient(180deg, #0d9488, #14b8a6)', boxShadow: '0 0 8px rgba(13,148,136,0.4)' }} />}
-                        <item.icon className={cn("h-4 w-4", isActive ? "text-[#0d9488]" : "text-slate-400")} />
+                        {isActive && <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[3px] h-[60%] rounded-r-full" style={{ background: 'linear-gradient(180deg, #0C74B9, #4A9BD0)', boxShadow: '0 0 8px rgba(12,116,185,0.4)' }} />}
+                        <item.icon className={cn("h-4 w-4", isActive ? "text-[#0C74B9]" : "text-slate-400")} />
                         <span>{item.title}</span>
                         {item.badge && (
-                          <span className="ml-auto text-[10px] bg-gradient-to-r from-[#0d9488] to-[#14b8a6] text-white px-2 py-0.5 rounded-full font-bold" style={{ boxShadow: '0 2px 6px rgba(13,148,136,0.3)' }}>
+                          <span className="ml-auto text-[10px] bg-gradient-to-r from-[#0C74B9] to-[#4A9BD0] text-white px-2 py-0.5 rounded-full font-bold" style={{ boxShadow: '0 2px 6px rgba(12,116,185,0.3)' }}>
                             {item.badge}
                           </span>
                         )}
@@ -231,7 +231,7 @@ export function AppSidebar() {
       <SidebarFooter>
         <div className="px-3 py-3 border-t border-slate-100">
           <div className="flex items-center gap-3 px-2">
-            <div className="flex items-center justify-center w-8 h-8 rounded-lg text-white text-xs font-bold" style={{ background: 'linear-gradient(135deg, #0d9488, #065f46)', boxShadow: '0 2px 8px rgba(13,148,136,0.25)' }}>
+            <div className="flex items-center justify-center w-8 h-8 rounded-lg text-white text-xs font-bold" style={{ background: 'linear-gradient(135deg, #0C74B9, #063B60)', boxShadow: '0 2px 8px rgba(12,116,185,0.25)' }}>
               {(user?.email?.[0] || "U").toUpperCase()}
             </div>
             <div className="flex-1 min-w-0 group-data-[collapsible=icon]:hidden">

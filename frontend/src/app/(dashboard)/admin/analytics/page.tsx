@@ -21,7 +21,7 @@ import {
 
 /* ── Color Palette ─────────────────────────────────────────────── */
 const C = {
-  teal: "#0d9488", tealLight: "#14b8a6", tealDark: "#0f766e",
+  teal: "#0C74B9", tealLight: "#4A9BD0", tealDark: "#08578C",
   emerald: "#059669", emeraldLight: "#34d399",
   violet: "#7c3aed", violetLight: "#a78bfa",
   amber: "#d97706", amberLight: "#fbbf24",

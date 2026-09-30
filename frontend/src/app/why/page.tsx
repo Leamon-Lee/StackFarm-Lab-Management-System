@@ -11,8 +11,8 @@ import { useAuth } from "@/lib/auth-context";
 
 const C = {
   bg: "#ffffff", surface: "#f8fafb", border: "#e2e8f0", borderHover: "#cbd5e1",
-  teal: "#0d9488", tealLight: "#14b8a6", tealPale: "#ccfbf1", tealPalest: "#f0fdfa",
-  green: "#065f46", greenDark: "#064e3b", greenLight: "#047857",
+  teal: "#0C74B9", tealLight: "#4A9BD0", tealPale: "#D7ECF8", tealPalest: "#EAF5FC",
+  green: "#063B60", greenDark: "#06253A", greenLight: "#08578C",
   text: "#0f172a", textSecondary: "#475569", textMuted: "#94a3b8",
   red: "#dc2626", redBg: "#fef2f2", redBorder: "#fecaca",
   amber: "#d97706", amberBg: "#fffbeb",

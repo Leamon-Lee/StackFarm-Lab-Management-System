@@ -112,7 +112,7 @@ export default function DashboardPage() {
         {/* Quick Actions */}
         <div className="bg-white rounded-2xl border border-black/5 p-5" style={{ boxShadow: '0 1px 3px rgba(0,0,0,0.04)' }}>
           <div className="flex items-center gap-2.5 mb-4">
-            <div className="flex items-center justify-center w-8 h-8 rounded-lg" style={{ background: 'linear-gradient(135deg, #0d9488, #14b8a6)' }}>
+            <div className="flex items-center justify-center w-8 h-8 rounded-lg" style={{ background: 'linear-gradient(135deg, #0C74B9, #4A9BD0)' }}>
               <Zap className="h-4 w-4 text-white" />
             </div>
             <h3 className="text-sm font-bold text-slate-800">Quick Actions</h3>
@@ -131,7 +131,7 @@ export default function DashboardPage() {
                   <a.icon className="h-4 w-4" />
                 </div>
                 <span className="flex-1 font-semibold text-slate-700 group-hover:text-slate-900">{a.label}</span>
-                <ArrowRight className="h-3.5 w-3.5 text-slate-300 group-hover:text-[#0d9488] transition-colors group-hover:translate-x-0.5" />
+                <ArrowRight className="h-3.5 w-3.5 text-slate-300 group-hover:text-[#0C74B9] transition-colors group-hover:translate-x-0.5" />
               </a>
             ))}
           </div>
@@ -140,7 +140,7 @@ export default function DashboardPage() {
         {/* Recent Activity */}
         <div className="bg-white rounded-2xl border border-black/5 p-5" style={{ boxShadow: '0 1px 3px rgba(0,0,0,0.04)' }}>
           <div className="flex items-center gap-2.5 mb-4">
-            <div className="flex items-center justify-center w-8 h-8 rounded-lg" style={{ background: 'linear-gradient(135deg, #0d9488, #14b8a6)' }}>
+            <div className="flex items-center justify-center w-8 h-8 rounded-lg" style={{ background: 'linear-gradient(135deg, #0C74B9, #4A9BD0)' }}>
               <Activity className="h-4 w-4 text-white" />
             </div>
             <h3 className="text-sm font-bold text-slate-800">Recent Activity</h3>

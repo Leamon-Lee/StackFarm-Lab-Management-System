@@ -20,7 +20,7 @@ type TabKey = "chat" | "health" | "insights" | "search" | "models" | "prediction
 
 /* ─────────────────── Colors ─────────────────── */
 const C = {
-  teal: "#0d9488", tealLight: "#14b8a6",
+  teal: "#0C74B9", tealLight: "#4A9BD0",
   emerald: "#059669", violet: "#7c3aed",
   amber: "#d97706", rose: "#e11d48",
   cyan: "#0891b2", indigo: "#4f46e5",

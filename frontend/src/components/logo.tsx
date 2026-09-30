@@ -14,13 +14,13 @@ export default function Logo({ size = "md" }: { size?: "sm" | "md" | "lg" }) {
     >
       <defs>
         <linearGradient id="logoGrad" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#2dd4bf" />
-          <stop offset="50%" stopColor="#14b8a6" />
-          <stop offset="100%" stopColor="#0d9488" />
+          <stop offset="0%" stopColor="#A7D1EC" />
+          <stop offset="50%" stopColor="#4A9BD0" />
+          <stop offset="100%" stopColor="#0C74B9" />
         </linearGradient>
         <linearGradient id="logoGrad2" x1="48" y1="0" x2="0" y2="48" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor="#5eead4" />
-          <stop offset="100%" stopColor="#14b8a6" />
+          <stop offset="0%" stopColor="#D7ECF8" />
+          <stop offset="100%" stopColor="#4A9BD0" />
         </linearGradient>
         <filter id="glow">
           <feGaussianBlur stdDeviation="1.5" result="blur" />
@@ -51,13 +51,13 @@ export default function Logo({ size = "md" }: { size?: "sm" | "md" | "lg" }) {
       />
 
       {/* Accent dot */}
-      <circle cx="24" cy="14" r="1.5" fill="#5eead4" opacity="0.8" />
+      <circle cx="24" cy="14" r="1.5" fill="#A7D1EC" opacity="0.8" />
 
       {/* Corner accents */}
-      <line x1="8" y1="8" x2="13" y2="8" stroke="#2dd4bf" strokeWidth="1" opacity="0.3" />
-      <line x1="8" y1="8" x2="8" y2="13" stroke="#2dd4bf" strokeWidth="1" opacity="0.3" />
-      <line x1="35" y1="40" x2="40" y2="40" stroke="#2dd4bf" strokeWidth="1" opacity="0.3" />
-      <line x1="40" y1="35" x2="40" y2="40" stroke="#2dd4bf" strokeWidth="1" opacity="0.3" />
+      <line x1="8" y1="8" x2="13" y2="8" stroke="#A7D1EC" strokeWidth="1" opacity="0.3" />
+      <line x1="8" y1="8" x2="8" y2="13" stroke="#A7D1EC" strokeWidth="1" opacity="0.3" />
+      <line x1="35" y1="40" x2="40" y2="40" stroke="#A7D1EC" strokeWidth="1" opacity="0.3" />
+      <line x1="40" y1="35" x2="40" y2="40" stroke="#A7D1EC" strokeWidth="1" opacity="0.3" />
     </svg>
   );
 }
