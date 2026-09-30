@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#08111f" />
+    <meta name="description" content="StackFarm Lab Management System — 实验室项目全过程管理工作台。" />
+    <title>StackFarm Lab Management System</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="nav shell">
+      <a class="brand" href="#top" aria-label="StackFarm 首页">
+        <span class="brand-mark">S</span>
+        <span>StackFarm <em>Lab</em></span>
+      </a>
+      <nav class="nav-links" aria-label="主导航">
+        <a href="#capabilities">能力</a>
+        <a href="#workflow">流程</a>
+        <a href="#architecture">架构</a>
+        <a class="nav-cta" href="https://github.com/Leamon-Lee/StackFarm-Lab-Management-System" target="_blank" rel="noreferrer">查看代码 ↗</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero shell">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse"></span> LAB OPERATIONS PLATFORM</p>
+          <h1>让每一个实验室项目，<span>清晰地向前推进。</span></h1>
+          <p class="hero-text">StackFarm 是面向实验室项目全过程的工作台，连接人员、课题、竞赛、成果与过程数据，让团队从立项到交付始终保持同一张全景地图。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#capabilities">探索能力 <span>↓</span></a>
+            <a class="button button-ghost" href="https://github.com/Leamon-Lee/StackFarm-Lab-Management-System" target="_blank" rel="noreferrer">GitHub ↗</a>
+          </div>
+          <div class="trust-row"><span>FastAPI</span><i>·</i><span>Next.js</span><i>·</i><span>PostgreSQL</span><i>·</i><span>Self-hosted</span></div>
+        </div>
+        <div class="hero-visual" aria-label="项目工作台预览示意图">
+          <div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <div class="dashboard-card">
+            <div class="card-top"><span class="window-dots"><b></b><b></b><b></b></span><span class="live-pill"><i></i> LIVE OVERVIEW</span></div>
+            <div class="mini-title"><div><small>项目总览</small><strong>实验室工作台</strong></div><span class="avatar">LF</span></div>
+            <div class="metric-grid">
+              <div class="metric"><small>进行中项目</small><strong>24</strong><span class="up">↗ 12.5%</span></div>
+              <div class="metric"><small>本月里程碑</small><strong>18</strong><span class="up">↗ 8.2%</span></div>
+              <div class="metric"><small>活跃成员</small><strong>86</strong><span class="muted">稳定运行</span></div>
+            </div>
+            <div class="chart-area"><div class="chart-label"><span>项目推进趋势</span><span>近 6 个月</span></div><svg viewBox="0 0 500 150" role="img" aria-label="项目推进趋势图"><defs><linearGradient id="fill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#52e5c0" stop-opacity=".35"/><stop offset="1" stop-color="#52e5c0" stop-opacity="0"/></linearGradient></defs><path d="M0,125 C45,120 58,87 105,98 S166,116 210,74 S270,92 313,63 S364,82 407,38 S463,45 500,14 V150 H0Z" fill="url(#fill)"/><path d="M0,125 C45,120 58,87 105,98 S166,116 210,74 S270,92 313,63 S364,82 407,38 S463,45 500,14" fill="none" stroke="#52e5c0" stroke-width="4" stroke-linecap="round"/></svg></div>
+            <div class="task-row"><span class="task-check">✓</span><span>提交阶段性成果材料</span><span class="task-tag">已完成</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats shell" aria-label="平台概览数据">
+        <div><strong>01</strong><span>统一工作台</span></div><div><strong>04</strong><span>核心领域</span></div><div><strong>100%</strong><span>可自托管</span></div><div><strong>∞</strong><span>可扩展流程</span></div>
+      </section>
+
+      <section id="capabilities" class="section shell">
+        <div class="section-heading"><div><p class="eyebrow">CORE CAPABILITIES</p><h2>把复杂的协作，<br /><span>变成可见的进度。</span></h2></div><p>从身份与组织，到项目与成果，StackFarm 将实验室日常工作拆解为可追踪、可复用、可持续改进的模块。</p></div>
+        <div class="capability-grid">
+          <article class="capability featured"><span class="icon">⌘</span><p class="number">01 / IDENTITY</p><h3>人员与权限</h3><p>围绕成员、角色、团队和访问边界建立清晰的身份基础。</p><a href="#workflow">了解更多 <span>→</span></a></article>
+          <article class="capability"><span class="icon">↗</span><p class="number">02 / PROJECTS</p><h3>项目全过程</h3><p>从立项、分工、提案到评审，让每个阶段都有迹可循。</p><a href="#workflow">了解更多 <span>→</span></a></article>
+          <article class="capability"><span class="icon">✦</span><p class="number">03 / OUTCOMES</p><h3>竞赛与成果</h3><p>聚合竞赛届次、获奖记录、论文与知识资产。</p><a href="#workflow">了解更多 <span>→</span></a></article>
+          <article class="capability"><span class="icon">⌁</span><p class="number">04 / INSIGHTS</p><h3>过程洞察</h3><p>用结构化数据帮助团队发现阻塞、复盘过程、持续成长。</p><a href="#workflow">了解更多 <span>→</span></a></article>
+        </div>
+      </section>
+
+      <section id="workflow" class="section section-dark">
+        <div class="shell workflow-layout"><div><p class="eyebrow">DESIGNED FOR MOMENTUM</p><h2>从想法到成果，<br /><span>每一步都算数。</span></h2><p class="section-lead">让团队把精力放在真正重要的研究工作上。StackFarm 负责把协作中的上下文、节点和责任串成一条连续的路径。</p></div><div class="flow-list"><div class="flow-item"><b>01</b><div><strong>提出项目</strong><span>记录目标、范围与参与成员</span></div><i>↗</i></div><div class="flow-item active"><b>02</b><div><strong>推进协作</strong><span>围绕任务、评审和里程碑协同</span></div><i>↗</i></div><div class="flow-item"><b>03</b><div><strong>沉淀成果</strong><span>让结果可复用、可追踪、可分享</span></div><i>↗</i></div></div></div>
+      </section>
+
+      <section id="architecture" class="section shell architecture"><div class="section-heading"><div><p class="eyebrow">OPEN BY DESIGN</p><h2>为真实的实验室<br /><span>长期工作而构建。</span></h2></div><p>开放技术栈、模块化边界和自托管能力，让平台可以贴合你的团队，而不是让团队迁就工具。</p></div><div class="architecture-card"><div class="arch-node node-one"><small>PEOPLE</small><strong>人员与身份</strong></div><div class="arch-node node-two"><small>WORK</small><strong>项目与流程</strong></div><div class="arch-node node-three"><small>KNOWLEDGE</small><strong>成果与资产</strong></div><div class="arch-center"><span>SF</span><strong>StackFarm</strong><small>LAB OPERATIONS</small></div><svg viewBox="0 0 900 310" preserveAspectRatio="none" aria-hidden="true"><path d="M290 80 C370 80 385 145 450 155"/><path d="M610 80 C530 80 515 145 450 155"/><path d="M290 230 C370 230 385 165 450 155"/><path d="M610 230 C530 230 515 165 450 155"/></svg></div></section>
+
+      <section class="final-cta shell"><p class="eyebrow">START WITH CLARITY</p><h2>让实验室的下一步，<br /><span>从现在开始更清楚。</span></h2><a class="button button-primary" href="https://github.com/Leamon-Lee/StackFarm-Lab-Management-System" target="_blank" rel="noreferrer">访问项目仓库 ↗</a></section>
+    </main>
+
+    <footer class="footer shell"><div class="brand"><span class="brand-mark">S</span><span>StackFarm <em>Lab</em></span></div><span>© 2026 StackFarm Lab Management System</span><a href="https://github.com/Leamon-Lee/StackFarm-Lab-Management-System" target="_blank" rel="noreferrer">GitHub ↗</a></footer>
+  </body>
+</html>
